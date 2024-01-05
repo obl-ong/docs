@@ -11,6 +11,7 @@ export default defineConfig({
 				dark: './src/assets/logo-dark.png',
 				replacesTitle: true
 			},
+			favicon: "/favicon.png",
 			editLink: {
 				baseUrl: 'https://github.com/obl-ong/docs/edit/main/',
 			},
@@ -20,6 +21,10 @@ export default defineConfig({
 				email: "mailto://team@obl.ong"
 			},
 			sidebar: [
+				{
+					label: "Home",
+					link: "/"
+				},
 				{
 					label: 'Guides',
 					items: [
