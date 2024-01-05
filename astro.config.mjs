@@ -26,12 +26,12 @@ export default defineConfig({
 					link: "/"
 				},
 				{
-					label: 'Guides',
-					autogenerate: { directory: 'guides' },
-				},
-				{
 					label: 'Connections',
 					autogenerate: { directory: 'connections' },
+				},
+				{
+					label: 'Guides',
+					autogenerate: { directory: 'guides' },
 				},
 				{
 					label: 'Reference',
