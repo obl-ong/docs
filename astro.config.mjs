@@ -5,9 +5,19 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Obl.ong Docs',
+			logo: {
+				light: './src/assets/logo-light.png',
+				dark: './src/assets/logo-dark.png',
+				replacesTitle: true
+			},
+			editLink: {
+				baseUrl: 'https://github.com/obl-ong/docs/edit/main/',
+			},
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/obl-ong',
+				mastodon: 'https://social.dino.icu/@oblong',
+				email: "mailto://team@obl.ong"
 			},
 			sidebar: [
 				{
